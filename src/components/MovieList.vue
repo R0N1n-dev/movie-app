@@ -1,6 +1,6 @@
 <template>
     <div>
-        <vs-list>
+        <vs-list class="list">
             <vs-list-header icon-pack="bx" icon="bx-movie-play" title="Now playing in a cinema near you"
                 color="danger"></vs-list-header>
             <router-link v-for="movie in movies  " :key="movie.id" :to="{ name: 'singleMovie', params: { id: movie.id } }">
@@ -22,3 +22,11 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+@media screen and (min-width:1024px) {
+    .list {
+        width: 70vw;
+    }
+}
+</style>
