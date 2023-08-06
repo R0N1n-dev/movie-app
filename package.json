@@ -1,0 +1,26 @@
+{
+  "name": "vue2-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "boxicons": "^2.1.4",
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5",
+    "vuesax": "^3.12.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.4.8",
+    "vite-plugin-lightningcss": "^0.0.5"
+  }
+}
